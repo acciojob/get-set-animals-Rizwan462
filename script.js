@@ -16,7 +16,7 @@ class Dog extends Animal {
 		super(species);
 	}
 	bark(){
-		console.log("woof");
+		console.log();
 	}
 }
 
@@ -25,7 +25,7 @@ class Cat extends Animal {
 		super(species);
 	}
 	purr(){
-		console.log("purr");
+		console.log();
 	}
 }
 
@@ -36,6 +36,7 @@ myCat.purr(); // Output: purr
 const myDog = new Dog("Golden Retriever");
 myDog.makeSound(); // Output: The Golden Retriever makes a sound
 myDog.bark(); // Output: woof
+
 
 
 // Do not change the code below this line

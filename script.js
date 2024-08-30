@@ -6,7 +6,9 @@ class Animal {
 	get species(){
 		return this._species;
 	}
-	
+	makeSound(sound){
+		return sound;
+	}
 }
 
 class Dog extends Animal {
